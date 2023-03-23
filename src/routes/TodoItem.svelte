@@ -4,6 +4,6 @@
 </script>
 
 <div>
-    <input type="checkbox" checked={completed}/> 
+    <input type="checkbox" bind:checked={completed}/> 
     { text }
 </div>
